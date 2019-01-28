@@ -51,7 +51,7 @@ echo "MongoDB Password: \"$PASS2\""
 echo "MongoDB Database: \"$DBUSER\""
 echo "========================================================================"
 sudo systemctl restart mongod
-git clone -b v1.10.x https://github.com/NodeBB/NodeBB.git nodebb
+git clone -b v1.11.2 https://github.com/NodeBB/NodeBB.git nodebb
 cd nodebb
 ./nodebb setup
 ./nodebb start
